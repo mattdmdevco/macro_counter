@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
@@ -19,7 +18,7 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
@@ -36,8 +35,12 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
-#Use haml and use as scaffolding template
+# Use haml and use as scaffolding template
 gem 'haml'
 gem 'haml_rails'
+
+# Use Foundation as the front-end framework
+gem 'foundation-rails'
+
