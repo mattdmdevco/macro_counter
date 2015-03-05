@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Asset_Tracker/.idea/Asset_Tracker.iml" filepath="$PROJECT_DIR$/../Asset_Tracker/.idea/Asset_Tracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/macro_counter.iml" filepath="$PROJECT_DIR$/.idea/macro_counter.iml" />
     </modules>
   </component>
 </project>
-

@@ -6,6 +6,10 @@ gem 'rails', '~> 4.2.0'
 # Use MySQL for the database
 gem 'mysql2', '~> 0.3.18'
 
+# Web server, also good for production
+# Should run fine on Windows too
+gem 'puma'
+
 # Dotenv for environment variables
 group :development, :test do
   gem 'dotenv-rails'
@@ -46,6 +50,26 @@ gem 'foundation-rails'
 
 # Add web console to rails >4.2
 gem 'web-console'
+
+# Devise for authentication
+gem 'devise'
+
+# CanCanCan to define permissions
+gem 'cancancan'
+
+# Rspec
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'rubocop', github: 'bbatsov/rubocop', require: false
+  gem 'rubocop-rspec'
+end
+
+# Factory Girl
+gem 'factory_girl'
+gem 'factory_girl_rails'
+
+# Save a bajillion keystrokes with these matchers
+gem 'shoulda-matchers', require: false
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
